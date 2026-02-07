@@ -1,11 +1,9 @@
 package core.basesyntax;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 public class FigureSupplier {
-
     private final ColorSupplier colorSupplier = new ColorSupplier();
 
     public Figure getRandomFigure() {

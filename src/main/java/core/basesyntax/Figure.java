@@ -1,11 +1,11 @@
 package core.basesyntax;
 
-public abstract class Figure {
+public abstract class Figure implements InfoPrint {
     protected Color color;
 
     public Figure(Color color) {
         this.color = color;
     }
 
-    abstract void printInfo();
+    public abstract void printInfo();
 }
